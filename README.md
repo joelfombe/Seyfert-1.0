@@ -6,10 +6,10 @@ Seyfert is more than just a simple WhatsApp bot. It is a journey companion that 
 
 ## Requirement
 
-- [Node.js](https://nodejs.org/) installed on your machine
-- [WhatsApp Business API](https://developers.facebook.com/docs/whatsapp/cloud-api/overview) account with a valid token
-- Create a template message on [WhatsApp Business API](https://developers.facebook.com/docs/whatsapp/cloud-api/overview)
-
+- [Node.js](https://nodejs.org/) installed.
+- [Google IA for Developer](https://ai.google.dev/) Get api key for Google Gemini.
+- [WhatsApp Business API](https://developers.facebook.com/docs/whatsapp/business-management-api/get-started#access-tokens) Create a valid token.
+- Create a template message on [WhatsApp Business API](https://developers.facebook.com/docs/whatsapp/business-management-api/message-templates).
 ### Template: ```random_verse```
 
 ```
@@ -33,8 +33,8 @@ Seyfert is more than just a simple WhatsApp bot. It is a journey companion that 
 > Templates must follow this structure to avoid errors.
 
 ## Instalation
-1. Fork this repository
-2. install
+1. Fork this repository.
+2. install.
 
 ```bash 
 npm install 
@@ -42,8 +42,8 @@ npm install
 ```bash
 pnpm install
 ```
-3. Rename `.env.example` to `.env`
-4. Open `.env` file and fill in the required fields (API keys, token, etc.)
+3. Rename `.env.example` to `.env`.
+4. Open `.env` file and fill in the required fields (API keys, token, etc.).
 ```env
 # Whatsapp configuration
 # For Whatsapp credentials, visit: https://developers.facebook.com/
@@ -67,22 +67,26 @@ BIBLE_API = "https://bible-api.com"  # Base URL of the Bible API
 # Google Gemini API
 GEMINI_API_KEY = "wngwngknlgkanNKNKNKNkndnkwddwd"
 ```
-5. Save the changes
+5. Save the changes.
 
 ## Usage
 
-Run ``` pnpm run dev``` or ```npm run dev```
+Run ``` pnpm run dev``` or ```npm run dev```.
+
+## Resource
+- [Whatsapp Business Api Docs](https://developers.facebook.com/docs/whatsapp/cloud-api/overview).
+- [Google Gemini Docs](https://ai.google.dev/docs).
 
 ## Contribution
 
 If you want to contribute to this project, follow the steps below:
 
-1. Fork the project
-2. Create a Branch for your Feature (`git checkout -b feature/AmazingFeature`)
-3. Add your changes (`git add .`)
-4. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-5. Push the Branch (`git push origin feature/AmazingFeature`)
-6. Open a Pull Request
+1. Fork the project.
+2. Create a Branch for your Feature (`git checkout -b feature/AmazingFeature`).
+3. Add your changes (`git add .`).
+4. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+5. Push the Branch (`git push origin feature/AmazingFeature`).
+6. Open a Pull Request.
 
 ## License
 
